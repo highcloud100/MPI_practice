@@ -1,0 +1,4 @@
+- mpicc는 c compiler wrapper임 
+
+- mpiexec 명령은 실행시 사용할 process의 개수를 지정할 수 있음
+    - 무슨 core를 사용할지 또한 지정 가능 (?)
