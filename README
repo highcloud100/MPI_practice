@@ -1,3 +1,31 @@
 # MPI study 
 
 - An Introduction to Parallel Programming 2011
+
+## setup 
+
+```bash
+direnv allow
+```
+
+set the Intelli Sense in vscode 
+
+
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/nix/store/1r7wma9pbbf1cg23yr9qzmmxkc9kwsa6-openmpi-5.0.9-dev/bin/mpicc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x86"
+        }
+    ],
+    "version": 4
+}
+```
